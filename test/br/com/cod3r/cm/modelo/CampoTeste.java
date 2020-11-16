@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import br.com.cod3r.cm.excecao.ExplosaoException;
+import br.com.cod3r.cm.modelo.Campo;
 
 public class CampoTeste {
 
@@ -110,4 +111,5 @@ public class CampoTeste {
 		
 		assertTrue(campo22.isAberto() && campo11.isFechado());
 	}
+	
 }
